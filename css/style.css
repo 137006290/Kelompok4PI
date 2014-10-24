@@ -15,15 +15,15 @@ img {
 	-moz-box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
 	-webkit-box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
 	box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
-	/* For IE 5.5 - 7 */
+	
 	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShdow=true, ShadowOpacity=0.80);
-	/* For IE 8 */
+	
 	-ms-filter:"progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
 	zoom: 1;
 }
 .box > img {
 	display: block;
-	position: relative; /* This protects the inner element from being blurred */
+	position: relative; 
 }
 .clearfix {
 	width: 960px;
@@ -127,7 +127,7 @@ img {
 	background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
 	padding: 40px 0 46px;
 }
-/** logo **/
+/** Untuk logo  **/
 .logo {
 	float: left;
 	display: inline-block;
